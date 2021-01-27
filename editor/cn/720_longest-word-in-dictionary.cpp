@@ -69,7 +69,7 @@ public:
                 if (node->next[c - 'a'] == nullptr) {
                     return false;
                 }
-                if (! node->next[c - 'a']->isEnd) {
+                if (!node->next[c - 'a']->isEnd) {
                     return false;
                 }
                 node = node->next[c - 'a'];
